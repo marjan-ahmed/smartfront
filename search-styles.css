@@ -1,0 +1,31 @@
+/* Search suggestions mobile */
+.search-suggestions-mobile {
+  background: var(--background-light);
+  padding: var(--space-xl) 0;
+}
+
+.search-suggestions-mobile .search-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  justify-content: center;
+}
+
+.search-suggestions-mobile .search-suggestions .suggestion {
+  padding: 0.5rem 1rem;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary-color);
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-suggestions-mobile .search-suggestions .suggestion:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.hidden {
+  display: none;
+}

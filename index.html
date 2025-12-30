@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusFin - Revolutionary Financial Technology</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <div class="logo">
+          <i class="fas fa-chart-network"></i>
+          <span>NexusFin</span>
+        </div>
+      </div>
+      <div class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#solutions" class="nav-link">Solutions</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-search">
+        <div class="search-container">
+          <div class="search-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <input type="text" id="searchInput" placeholder="Search...">
+          <span class="search-shortcut-hint">Ctrl+K</span>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <button class="btn btn-outline" id="loginBtn">Log In</button>
+        <button class="btn btn-primary" id="signupBtn">Get Started</button>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">The Future of Finance is Here</h1>
+          <p class="hero-subtitle">NexusFin revolutionizes financial management with AI-powered insights, real-time analytics, and seamless integration across all your financial services.</p>
+          <div class="hero-cta">
+            <button class="btn btn-primary btn-large">Start Free Trial</button>
+            <button class="btn btn-outline btn-large">View Demo</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="dashboard-preview">
+            <div class="dashboard-header">
+              <div class="status-indicator"></div>
+              <div class="status-text">Live Analytics</div>
+            </div>
+            <div class="dashboard-content">
+              <div class="chart-placeholder">
+                <div class="chart-graph"></div>
+                <div class="chart-labels">
+                  <span>Jan</span>
+                  <span>Mar</span>
+                  <span>May</span>
+                  <span>Jul</span>
+                  <span>Sep</span>
+                  <span>Nov</span>
+                </div>
+              </div>
+              <div class="metrics-grid">
+                <div class="metric-card">
+                  <div class="metric-value">$2.4M</div>
+                  <div class="metric-label">Total Assets</div>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-value">+12.5%</div>
+                  <div class="metric-label">Growth</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Powerful Features</h2>
+        <p class="section-subtitle">Everything you need to manage your finances intelligently</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3 class="feature-title">AI Insights</h3>
+          <p class="feature-description">Get intelligent recommendations based on your financial behavior and market trends.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="feature-title">Bank-Level Security</h3>
+          <p class="feature-description">Military-grade encryption and multi-factor authentication to protect your data.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3 class="feature-title">Real-Time Analytics</h3>
+          <p class="feature-description">Instant updates and insights as your financial situation changes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-sync-alt"></i>
+          </div>
+          <h3 class="feature-title">Seamless Integration</h3>
+          <p class="feature-description">Connect all your financial accounts in one secure platform.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="feature-title">Predictive Analytics</h3>
+          <p class="feature-description">Forecast financial outcomes and plan for the future.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="feature-title">Mobile First</h3>
+          <p class="feature-description">Full functionality across all devices with native mobile apps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions Section -->
+  <section id="solutions" class="solutions">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tailored Solutions</h2>
+        <p class="section-subtitle">Designed for different financial needs and goals</p>
+      </div>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <div class="solution-icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="solution-title">Personal Finance</h3>
+          <p class="solution-description">Manage personal budgets, investments, and financial goals with AI-powered insights.</p>
+          <ul class="solution-features">
+            <li><i class="fas fa-check"></i> Budget Tracking</li>
+            <li><i class="fas fa-check"></i> Investment Management</li>
+            <li><i class="fas fa-check"></i> Expense Analysis</li>
+          </ul>
+          <button class="btn btn-outline">Learn More</button>
+        </div>
+        <div class="solution-card solution-card-premium">
+          <div class="solution-badge">Popular</div>
+          <div class="solution-icon">
+            <i class="fas fa-building"></i>
+          </div>
+          <h3 class="solution-title">Business Solutions</h3>
+          <p class="solution-description">Complete financial management for businesses of all sizes with advanced analytics.</p>
+          <ul class="solution-features">
+            <li><i class="fas fa-check"></i> Cash Flow Management</li>
+            <li><i class="fas fa-check"></i> Financial Reporting</li>
+            <li><i class="fas fa-check"></i> Tax Optimization</li>
+            <li><i class="fas fa-check"></i> Risk Assessment</li>
+          </ul>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+        <div class="solution-card">
+          <div class="solution-icon">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <h3 class="solution-title">Investment Platform</h3>
+          <p class="solution-description">Advanced investment tools with AI-driven portfolio optimization.</p>
+          <ul class="solution-features">
+            <li><i class="fas fa-check"></i> Portfolio Management</li>
+            <li><i class="fas fa-check"></i> Market Analysis</li>
+            <li><i class="fas fa-check"></i> Risk Management</li>
+          </ul>
+          <button class="btn btn-outline">Explore</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">10M+</div>
+          <div class="stat-label">Active Users</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">$50B+</div>
+          <div class="stat-label">Assets Managed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">99.9%</div>
+          <div class="stat-label">Uptime</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Trusted by Financial Leaders</h2>
+        <p class="section-subtitle">See what our customers say about us</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"NexusFin transformed how we manage our investment portfolio. The AI insights have improved our returns by 15% in just 6 months."</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">JD</div>
+            <div class="author-info">
+              <div class="author-name">John Doe</div>
+              <div class="author-title">CEO, FinTech Corp</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"The real-time analytics and security features give us peace of mind while managing large-scale financial operations."</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">SJ</div>
+            <div class="author-info">
+              <div class="author-name">Sarah Johnson</div>
+              <div class="author-title">CFO, Global Bank</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"As a small business owner, NexusFin has simplified our financial management and saved us countless hours every month."</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">MR</div>
+            <div class="author-info">
+              <div class="author-name">Mike Rodriguez</div>
+              <div class="author-title">Founder, Startup Inc</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Ready to Transform Your Financial Future?</h2>
+        <p class="cta-subtitle">Join thousands of satisfied users and experience the power of AI-driven financial management.</p>
+        <div class="cta-cta">
+          <button class="btn btn-primary btn-large">Start Free Trial</button>
+          <button class="btn btn-outline btn-large">Schedule Demo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <div class="footer-brand">
+            <div class="logo">
+              <i class="fas fa-chart-network"></i>
+              <span>NexusFin</span>
+            </div>
+            <p>Revolutionizing finance with AI-powered insights and secure, intelligent financial management.</p>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#api">API</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#press">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#help">Help Center</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#status">Status</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="#privacy">Privacy</a>
+          <a href="#terms">Terms</a>
+          <a href="#cookies">Cookies</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2025 NexusFin. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

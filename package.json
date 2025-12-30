@@ -1,0 +1,27 @@
+{
+  "name": "nexusfin-fintech-landing",
+  "version": "1.0.0",
+  "description": "A modern fintech landing page with search functionality, interactive elements, and creative design",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ./fintech-landing",
+    "dev": "npx serve ./fintech-landing -l 3000",
+    "sass": "sass --watch sass/styles.scss:styles.css",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "fintech",
+    "landing-page",
+    "sass",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "design"
+  ],
+  "author": "SmartFront AI",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
